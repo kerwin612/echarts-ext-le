@@ -1,0 +1,30 @@
+{
+  "name": "echarts-ext-le",
+  "version": "0.3.2",
+  "homepage": "https://github.com/ileler/echarts-ext-le",
+  "authors": [
+    "ileler <ileler@qq.com>"
+  ],
+  "description": "baidu echarts ext util",
+  "main": "./dist/echarts-ext-le.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "baidu",
+    "echarts"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "echarts": "~2.2.7"
+  },
+  "devDependencies": {
+  }
+}
