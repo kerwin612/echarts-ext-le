@@ -81,6 +81,9 @@ myChart.on('click', function (params) {
 	});
 });
 ```
+Contrast image:
+![](/1481804708000.png)  
+![](/1481804708000_export.png)
 
 ## Contribute
 
