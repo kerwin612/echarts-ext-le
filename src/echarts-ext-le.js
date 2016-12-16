@@ -42,12 +42,10 @@ var LeEChartsConfig = (function(){
 				dupDom.id = dupId;
 			} else {
 				var dupDom = dom || (document.getElementById(dupId) || document.createElement('div'));
-				dupDom.style.position = 'absolute';
-				dupDom.style.height = '100%';
-				dupDom.style.width = '100%';
-				dupDom.style.zIndex = -999;
-				dupDom.style.left = 0;
-				dupDom.style.top = 0;
+				var customStyle = {position: 'absolute', height: '100%', width: '100%', zIndex: -9999, left: 0, right: 0};
+				for (var style in customStyle) {
+					dupDom.style[style] = customStyle[style];
+				}
 				dupDom.innerHTML = '';
 				dupDom.id = dupId;
 				document.body.appendChild(dupDom);
